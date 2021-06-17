@@ -1,0 +1,52 @@
+@charset "utf-8";
+
+body{
+    width:70%;
+    margin: 0 auto;
+    
+}
+#headerMain{
+    text-align: center;
+    background-image: radial-gradient(ellipse, Turquoise, darkseagreen);
+    transition: transform .7s ease-in-out;
+}
+
+#headerMain:hover{
+    
+    transform: rotate(-2deg);
+
+}
+
+section{
+    text-align: center;
+}
+
+nav{
+    text-align: right;
+}
+
+li{
+    display: inline;
+}
+
+aside{
+    float: left;
+    background-color: gainsboro;
+}
+
+/*CSS3 'new' selectors*/
+p[name="clausule"]{
+    /*
+     * This one will also work with "like" "query":
+     * p[name^="cla"]{}
+     */
+    background-color: indianred;
+}
+/*
+ * Works with even / odd and specific number.
+ * Applies style to the specific child target.
+ */
+p:nth-child(2){
+    background-color: lightgreen;
+}
+
