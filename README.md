@@ -25,3 +25,11 @@ Basically I've learnt:
 * element targetting with getElementBy...,  and qerySelector(All).
 
 Nothing complex here, just a little display.
+
+# HTMLVideo
+
+In this lesson I've learnt how to add video to html file, an also
+set custom controllers (with css) to it with functions (with JS) like:
+* play
+* pause
+* Seek
