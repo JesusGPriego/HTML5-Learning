@@ -1,0 +1,116 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+body{
+	font-size: 85%;
+	background-color: rgba(228, 228, 228, 0.3);
+}
+
+h1{
+	text-align: center;
+	padding: 10px 0 10px 0;
+	color:rgb(202, 202, 202);
+	font-size:3em;
+	font-family: 'Times New Roman', Times, serif;
+	font-weight: bold;
+	background-image: linear-gradient(to right top, rgb(43, 43, 43), rgb(19, 19, 19));
+	box-shadow: rgb(156, 156, 156) 0.05em 0.05em 0.05em;
+	/*text-shadow: rgb(202, 202, 202) 0.03em 0.03em 0.1em;*/
+}
+
+section{
+	width: 95%;
+	border-top: 1px solid rgb(19, 19, 19);
+	margin:0 auto;
+	
+}
+
+h2{
+	width:20%;
+	text-align: start;
+	padding: 0.5em 1em 0.3em 0.3em;
+	margin:0.5em 0.5em;
+	font-size: 2.3em;
+	font-style: bold;
+	font-family: cursive;
+	border-left: 6px solid rgb(20, 20, 20);
+	background-color: rgb(230, 230, 230);
+}
+
+figure{
+	float:left;
+ 	padding: 1em;
+}
+
+figcaption{
+	text-align: center;
+	margin-top: 20px;
+	font-style: italic;
+}
+
+figure img{
+	box-shadow: rgba(49, 49, 49, 0.89) 5px 5px 5px;
+	transition: transform .3s;
+	border-radius: 5px;
+}
+
+img:hover{
+	transform: scale(1.2);
+}
+
+footer{
+	clear: both;
+	text-align: center;
+	margin-top: 3em;
+	margin-bottom: 20px;
+	text-decoration: underline;     
+	text-decoration-color: rgb(41, 41, 41);  
+	text-decoration-style: double;  
+}
