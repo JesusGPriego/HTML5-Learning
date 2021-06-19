@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgb(226, 226, 226);
+}
+
+p{
+    text-align: center;
+    color:rgb(182, 182, 182);
+}
+
+section{
+    width:320px;
+    margin: 0 auto;
+    padding: 3px;
+    background-color: rgb(71, 71, 71);
+}
+
+nav{
+    margin: 5px 0;
+}
+
+#buttons{
+    float:left;
+    width:80px;
+    height: 20px;
+}
+
+#seekbar{
+    background:white;
+    width:250px;
+    height: 16px;
+    border: 1px solid rgb(189, 189, 189);
+    margin-left:50px;
+}
+
+#seekbar:hover{
+    cursor:pointer;
+} 
+
+#progress{
+    position:absolute;
+    width:0px;
+    height: 16px;
+    background:rgb(70, 158, 209);
+}

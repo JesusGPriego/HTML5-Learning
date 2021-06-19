@@ -33,3 +33,7 @@ set custom controllers (with css) to it with functions (with JS) like:
 * play
 * pause
 * Seek
+
+# HTMLAdio
+
+Same as I did with video, but using audio.
