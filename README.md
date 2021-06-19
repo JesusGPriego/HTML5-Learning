@@ -37,3 +37,8 @@ set custom controllers (with css) to it with functions (with JS) like:
 # HTMLAdio
 
 Same as I did with video, but using audio.
+
+# HTMLForms
+
+In this lesson I've learnt new HTML5 form tags and attributes.
+These 'new' tags make it easier to validate forms, which is always nice!
