@@ -42,3 +42,5 @@ Same as I did with video, but using audio.
 
 In this lesson I've learnt new HTML5 form tags and attributes.
 These 'new' tags make it easier to validate forms, which is always nice!
+I've also learnt about datalists, but it requires some CSS to works as intended (At least in Firefox).
+
