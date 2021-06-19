@@ -8,6 +8,12 @@
 </head>
 <body>
     <section>
+        <datalist id="countries">
+            <option value ="UK">UK</option>
+            <option value ="Germany">Germany</option>
+            <option value ="Spain">Spain</option>
+        </datalist>
+
         <form name="student form" id="studentform" method="get">
             <!-- auto validation tags: email, url, number, date -->
             <!-- new attrs: 
@@ -29,6 +35,8 @@
             Age <input type="number" min="18" max="95" name="studentAge" id="studentAge">
             <br>
             Date <input type="date" name="studentDate" id="studentDate">
+            <br>
+            Country <input type="text" name="studentCountry" id="studentCountry" list="countries">
             <br>
             <input type="submit" value="Send">
         </form>
