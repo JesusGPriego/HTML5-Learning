@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Api Forms</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Register Form</h1>
+    </header>
+    <section>
+        <form name="register_form" method="get">
+            <table>
+                <tr>
+                    <td>
+                        Name:
+                    </td>
+                    <td>
+                        <input type="text" name="insertedName" id="insertedName">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Surname:
+                    </td>
+                    <td>
+                        <input type="text" name="surname" id="surname">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Email:
+                    </td>
+                    <td>
+                        <input type="email" name="email" id="email" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Postal Code:
+                    </td>
+                    <td>
+                        <input pattern="[0-9]{5}" name="postalCode" id="postalCode" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Age:
+                    </td>
+                    <td>
+                        <input type="range" min="30" max="120" step="30" name="age" id="age" value="30">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <output id="range">Range: <br/>0 to 30</output>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input type="submit" id="send" value="Send">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </section>
+
+
+</body>
+</html>

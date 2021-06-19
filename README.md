@@ -44,3 +44,13 @@ In this lesson I've learnt new HTML5 form tags and attributes.
 These 'new' tags make it easier to validate forms, which is always nice!
 I've also learnt about datalists, but it requires some CSS to works as intended (At least in Firefox).
 
+# HTMLApiForms.
+
+In this lesson I've learnt how to validate Forms using HTML5 attributes and JS(using Api Form).
+
+Features:
+
+* 'real time validation'
+* validation on submit.
+* validation on load
+* validation on "invalid" form event.
