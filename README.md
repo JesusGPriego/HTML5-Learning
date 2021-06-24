@@ -58,3 +58,11 @@ Features:
 # HTMLCanvas
 
 In this lesson I've leant how to use a canvas in html, and draw some forms like rects, lines and text.
+
+# Drag&Drop
+
+In this lesson I've learn how to drag and drop items between sections on a web, and also files to a web.
+
+More accurately, I've learnt:
+
+* Event handeling (dragstart, dragend, dragenter, dragleave, dragover, drop).

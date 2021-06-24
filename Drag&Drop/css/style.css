@@ -1,0 +1,25 @@
+#object{
+    float:left;
+    margin:30px;
+    height: auto;
+    border:1px solid red;
+}
+#destiny{
+    float:left;
+    width:600px;
+    height:400px;
+    margin:30px;
+    border:1px solid rgb(162, 245, 85);
+}
+
+#fileSection{
+    float:left;
+    width:500px;
+    height:200px;
+    margin:30px;
+    border:1px solid rgba(117, 58, 226, 0.582);
+}
+img{
+    margin: 5px 10px;
+    display:block;
+}
