@@ -1,0 +1,11 @@
+
+
+section{
+    width: 500px;
+    position: relative;
+    margin:25px auto;
+}
+
+canvas{
+    border: 1px solid rgb(233, 92, 92);
+}

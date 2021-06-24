@@ -54,3 +54,7 @@ Features:
 * validation on submit.
 * validation on load
 * validation on "invalid" form event.
+
+# HTMLCanvas
+
+In this lesson I've leant how to use a canvas in html, and draw some forms like rects, lines and text.
