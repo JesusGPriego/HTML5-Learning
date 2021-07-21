@@ -66,3 +66,7 @@ In this lesson I've learn how to drag and drop items between sections on a web, 
 More accurately, I've learnt:
 
 * Event handeling (dragstart, dragend, dragenter, dragleave, dragover, drop).
+
+# CSSTemplate 
+
+Just a css template to follow in projects, as it follos a nice structure.
